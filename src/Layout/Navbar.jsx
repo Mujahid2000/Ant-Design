@@ -8,7 +8,7 @@ const { Sider } = Layout;
 import Title from "antd/es/typography/Title";
 
 const Navbar = () => {
-  const [openMenu, setOpenMenu] = useState(true);
+  const [openMenu, setOpenMenu] = useState(false);
   const [data, setData] = useState([]);
   const [sidebar, setSideBar] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
