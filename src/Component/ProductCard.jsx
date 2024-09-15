@@ -21,7 +21,7 @@ const ProductCard = () => {
     return (
         <div className='max-w-[1440px] mt-10 mx-auto'>
             <Title underline  className='text-center'>Our Products</Title>
-        <div className='grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1  gap-7 items-center place-content-center justify-center'>
+        <div className='grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2   gap-7 items-center place-items-center justify-center'>
             {
                 products.map((pro, index)=>(
                     <Card key={index} 
